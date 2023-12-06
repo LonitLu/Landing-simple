@@ -313,7 +313,16 @@ h3{
   gap: 30px;
 }
 
-.banners__img-1{
+.banners__link {
+  transition: 1s;
+}
+
+.banners__link:hover {
+  transform: scale(120%);
+}
+
+
+/* .banners__img-1{
   transition: 1s;
 }
 
@@ -326,7 +335,7 @@ h3{
 }
 
 .banners__img-2:hover {
-  transform: scale(150%);
+  transform: scale(120%);
 }
 
 .banners__img-3{
@@ -344,7 +353,7 @@ h3{
 
 .banners__img-4:hover {
   transform: translateY(-2000%);
-}
+} */
 
 /* .book{
 
